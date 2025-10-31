@@ -1,13 +1,13 @@
 # 🏠 House Price Prediction using XGBoost
 
 ## 📘 Overview
-This project uses the **XGBoost Regressor** to predict house prices based on various housing features such as average number of rooms, tax rate, distance to employment centers, and more.  
+This project uses the **XGBoost Regressor** to predict house prices based on various housing features such as the average number of rooms, tax rate, distance to employment centers, and more.  
 The dataset used is [`housing.csv`](./content/housing.csv).
 
 ---
 
 ## 🎯 Objective
-To build a machine learning model that accurately predicts house prices using **XGBoost (Extreme Gradient Boosting)**, a high-performance and regularized regression algorithm.
+To build a machine learning model that accurately predicts house prices using **XGBoost (Extreme Gradient Boosting)** — a high-performance and regularized regression algorithm.
 
 ---
 
@@ -78,41 +78,3 @@ plt.xlabel('Actual Prices')
 plt.ylabel('Predicted Prices')
 plt.title('Actual vs Predicted Prices (XGBoost)')
 plt.show()
-
-🚀 How to Run
-
-Clone this repository
-
-git clone https://github.com/ranjithganeshkumar/house-price-prediction-using-xgboost.git
-cd house-price-prediction-using-xgboost
-
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Run the script or notebook
-
-python main.py
-
-
-or open the Jupyter notebook and run all cells.
-
-🧾 Requirements
-pandas
-numpy
-scikit-learn
-xgboost
-matplotlib
-seaborn
-
-📚 Future Improvements
-
-Add hyperparameter tuning using GridSearchCV or Optuna
-
-Compare with other models (LightGBM, CatBoost, Random Forest)
-
-Visualize feature importance
-
-Deploy the model using Streamlit or FastAPI
